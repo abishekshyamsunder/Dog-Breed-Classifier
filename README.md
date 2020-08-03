@@ -24,7 +24,7 @@ This project was implemented on a machine with GPU support. Thus the requiremets
 - dog_app.ipynb: This file is the work horse of the whole application, which contains code for implementing the classifier
 - images folder: It contains the images used to finally test the working of our algorithm/model
 - Data folder: This folder is empty in the directory. (please remove the please_delete.txt files). The data for this is large, and is thus hosted on [Google Drive](https://drive.google.com/file/d/1E8oEj0-TAJB6w0DHDLKZegJcQCUY48TG/view?usp=sharing). Download it from here and replace in the folder accordingly
-- bottleneck_features folder: This folder is empty in the directory. (please remove the please_delete.txt files). The data for this is in .npz format and is large. This is hosted on [Google Drive as well](http:google.com). Download and put it in the folder accordingly
+- bottleneck_features folder: This folder is empty in the directory. (please remove the please_delete.txt files). The data for this is in .npz format and is large. This is hosted on [Google Drive as well](https://drive.google.com/file/d/1bkBpPvmwpqMx1QJuROQFIDKr4PgZ5ZvW/view?usp=sharing). Download and put it in the folder accordingly
 - extract_bottleneck_features.py: This file contains the code necessary to extract features for inputting to model
 
 ### Working interacting with the project
