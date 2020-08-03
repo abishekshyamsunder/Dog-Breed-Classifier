@@ -3,17 +3,17 @@
 ### Installation Requirements
 
 This project was implemented on a machine with GPU support. Thus the requiremets for such a machine has been provided.  
-`pip install opencv-python==3.2.0.6`
-`pip install h5py==2.6.0`
-`pip install matplotlib==2.0.0`
-`pip install numpy==1.12.0`
-`pip install scipy==0.18.1`
-`pip install tqdm==4.11.2`
-`pip install keras==2.0.2`
-`pip install scikit-learn==0.18.1`
-`pip install pillow==4.0.0`
-`pip install ipykernel==4.6.1`
-`pip install tensorflow-gpu==1.0.0`
+`pip install opencv-python==3.2.0.6`.  
+`pip install h5py==2.6.0`.  
+`pip install matplotlib==2.0.0`.  
+`pip install numpy==1.12.0`.  
+`pip install scipy==0.18.1`.  
+`pip install tqdm==4.11.2`.  
+`pip install keras==2.0.2`.  
+`pip install scikit-learn==0.18.1`.  
+`pip install pillow==4.0.0`.  
+`pip install ipykernel==4.6.1`.  
+`pip install tensorflow-gpu==1.0.0`.  
 
 ### Project Motivation
 1. This project aims to identify the breed of a dog given an input image.  
@@ -31,12 +31,12 @@ This project was implemented on a machine with GPU support. Thus the requiremets
 Before running the cells in the jupyter notebook, perform the following steps ('Replacing the paths to variables in the notebook')
 - Find: `train_files, train_targets = load_dataset('../../../data/dog_images/train')`.  
   Replace: `train_files, train_targets = load_dataset('data/dog_images/train')`.  
-- Find: `valid_files, valid_targets = load_dataset('../../../data/dog_images/valid')` 
-  Replace: `valid_files, valid_targets = load_dataset('data/dog_images/valid')`   
-- Find: `valid_files, valid_targets = load_dataset('../../../data/dog_images/test')` 
-  Replace: `valid_files, valid_targets = load_dataset('data/dog_images/test')`
-- Find: `bottleneck_features = np.load('../../../data/bottleneck_features/DogInceptionV3Data.npz')`.  
-  Replace: `valid_files, valid_targets = load_dataset('bottleneck_features/DogInceptionV3Data.npz')`.  
+- Find: `valid_files, valid_targets = load_dataset('../../../data/dog_images/valid')`  
+  Replace: `valid_files, valid_targets = load_dataset('data/dog_images/valid')`    
+- Find: `valid_files, valid_targets = load_dataset('../../../data/dog_images/test')`   
+  Replace: `valid_files, valid_targets = load_dataset('data/dog_images/test')`   
+- Find: `bottleneck_features = np.load('../../../data/bottleneck_features/DogInceptionV3Data.npz')`.   
+  Replace: `valid_files, valid_targets = load_dataset('bottleneck_features/DogInceptionV3Data.npz')`.   
  
 Then run the command: `jupyter notebook` and open the .ipynb file to run the cells
 
@@ -45,3 +45,7 @@ An Algorithm was setup to identify if an image had a human or a dog in it. Then 
 When detecting humans, the face-detector misidentified dogs as human faces 11% of the time.  
 When detecting dogs, the dog-detector misidentified humans as dogs faces 2% of the time.  
 The CNN model obtained after transfer learning had an accuracy of 73%
+
+
+### Acknowledgements
+The data was provided by Udacity for the data scientist capstone project
